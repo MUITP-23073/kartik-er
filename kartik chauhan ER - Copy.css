@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fff8e1;
+    color: #5c4033;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #d88a29;
+  }
+  
+  p {
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  /* Header */
+  .header-container {
+    background: #d88a29;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header-container h1 {
+    font-size: 3rem;
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .pie-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+  }
+  
+  /* Happy Section */
+  .happy-section {
+    padding: 20px;
+    background: #f2cb7d;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+  }
+  
+  .carousel img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  /* Stories Section */
+  .stories-section {
+    background: #a87c5a;
+    color: white;
+    padding: 20px;
+  }
+  
+  .story-item {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+    gap: 20px;
+  }
+  
+  .story-item img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  /* Blogs Section */
+  .blogs-section {
+    padding: 20px;
+    background: #fff3d4;
+  }
+  
+  .blog-reel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+  }
+  
+  .blog-reel a {
+    text-decoration: none;
+    color: #5c4033;
+    text-align: center;
+  }
+  
+  .blog-reel img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .blog-reel p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: #d88a29;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  
